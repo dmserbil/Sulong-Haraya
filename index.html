@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image" href="logo.png">
     <link rel="stylesheet" href="style1.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
     <title>Sulong Haraya</title>
 </head>
 
 <body>
     <!-- Start of Navbar -->
-    <nav class="navbar navbar-expand-lg bg-warning">
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
         <div class="container-fluid p-2">
-            <img src="logo.png" alt= "logo" alt class="img-fluid" style="max-width: 70px;"><span class="title">Sulong Haraya</span>
-            <button type="button" class="navbar-toggler navbar-light" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="ToggleNavbar">
+            <img src="logo.png" alt="logo" alt class="img-fluid" style="max-width: 70px;"><span class="title">Sulong
+                Haraya</span>
+            <button type="button" class="navbar-toggler navbar-light" data-bs-target="#navbarNav"
+                data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="ToggleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mx-auto"></div>
-                
+
                 <ul class="navbar-nav text-center" id="link">
                     <li class="nav-item">
                         <a href="index.html" class="nav-link link-dark">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle link-dark" id="navbarDropdownMenuLink1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Members</a>
+                        <a href="" class="nav-link dropdown-toggle link-dark" id="navbarDropdownMenuLink1"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Members</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
                             <a class="dropdown-item" href="choreographers.html">Choreographers</a>
                             <a class="dropdown-item" href="dancers.html">Dancers</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle link-dark" id="navbarDropdownMenuLink2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Videos</a>
+                        <a href="" class="nav-link dropdown-toggle link-dark" id="navbarDropdownMenuLink2"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Videos</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
                             <a class="dropdown-item" href="workshop.html">Dance Cover</a>
                             <a class="dropdown-item" href="tutorial.html">Tutorials</a>
@@ -53,66 +59,40 @@
 
     <header>
 
-        <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
-        <div class="overlay"></div>
-      
-        <!-- The HTML5 video element that will create the background video on the header -->
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-          <source src="Project Name.mp4" type="video/mp4">
-        </video>
-      
-        <!-- The header content -->
+        <div class="overlay mt-5">
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="Project Name.mp4" type="video/mp4">
+            </video>
+        </div>
         <div class="container h-100">
-          <div class="d-flex h-100 text-center align-items-center">
-            <div class="w-100 text-white">
-              <h1 class="display-3 fw-bold">REACH YOUR DANCE GOALS</h1>
-              <p class="lead mb-0">We are here to help you express yourselves and your feelings by dancing. We are here help you to grow and enhance your skills!! <br><br><strong>So what are you waiting for?</strong> </p>
-              <div class="button d-grid gap-2">
-                <button type="submit" class="btn btn-lg">JOIN US!</button>
-            </div>
-            </div>
-          </div>
-        </div>
-      </header>
-     
-    
-    
-    <!-- <section class="main">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-6 col-md-6 ">
-                    <div class="video mt-2">
-                        <video src="Project Name.mp4" width="100%" autoplay loop muted></video>
-                    </div>
-                </div>
-                <div class="col-lg-6 mt-2">
-                    <div class="text">
-                        <h1 class="fw-bold "> REACH<br> YOUR<br> DANCE<br> GOALS</h1>
-                        <p>We are here to help you express yourselves and your feelings by dancing. We are here help you to grow and enhance your skills!! <br><br><strong>So what are you waiting for?</strong> </p>
-                    </div>
-                    <hr>
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-3 fw-bold">REACH YOUR DANCE GOALS</h1>
+                    <p class="lead mb-0">We are here to help you express yourselves and your feelings by dancing. We are
+                        here help you to grow and enhance your skills!! <br><br><strong>So what are you waiting
+                            for?</strong> </p>
                     <div class="button d-grid gap-2">
-                        <button type="submit" class="btn btn-dark btn-lg">JOIN US!</button>
+                        <a type="submit" class="btn btn-lg text-white" href="contact.html">JOIN US!</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
-     
-    
-    
+    </header>
+
     <main id="main" class="mt-5 bg-light">
-        
+
         <section id="about" class="about">
             <div class="container-fluid">
                 <div class="section-header">
                     <h1 class="text-center">About Us</h1>
                     <br>
-                    <p class="text-center"><strong>SULONG HARAYA</strong> or also known us <i>"Rhythm and Styles"</i> is a dance group or organization inside the school of City College of Calamba. Sulong Haraya was established in the year of 2008.</p>
+                    <p class="text-center"><strong>SULONG HARAYA</strong> or also known us <i>"Rhythm and Styles"</i> is
+                        a dance group or organization inside the school of City College of Calamba. Sulong Haraya was
+                        established in the year of 2008.</p>
                 </div>
 
                 <br>
-                
+
                 <div class="row gy-4">
                     <div class="col-lg-6">
                         <h3>Sulong Haraya</h3>
@@ -128,25 +108,35 @@
                                     <img src="aud1.jpg" class="d-block w-100" alt="pictures">
                                 </div>
                             </div>
-                            
-                            <button class="carousel-control-prev" type="button" data-bs-target="#randompics" data-bs-slide="prev">
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#randompics"
+                                data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#randompics" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#randompics"
+                                data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
-                        </div><hr>
+                        </div>
+                        <hr>
                         <br>
-                        <p>Sulong Haraya is a dance group that participates in competitions inside and outside the school also perfom when they have events in school. Sulong Haraya's type of dance is a modern dance that has a variety of genres such as hiphop, dance hall, lackings and more.This organization is not only for people who know or are good at dancing but also for people who want or willing to learn at dancing.</p>
+                        <p>Sulong Haraya is a dance group that participates in competitions inside and outside the
+                            school also perfom when they have events in school. Sulong Haraya's type of dance is a
+                            modern dance that has a variety of genres such as hiphop, dance hall, lackings and more.This
+                            organization is not only for people who know or are good at dancing but also for people who
+                            want or willing to learn at dancing.</p>
                     </div>
-                    
+
                     <div class="col-lg-6">
                         <div class="content ps-0 ps-lg-5">
                             <br>
-                            <p class="italic">The photos below are the certificates that the organization <strong>"Sulong Haraya"</strong> got in the competitions they participated in outside the school.</p><hr>
-                            
+                            <p class="italic">The photos below are the certificates that the organization
+                                <strong>"Sulong Haraya"</strong> got in the competitions they participated in outside
+                                the school.</p>
+                            <hr>
+
                             <div id="certificates" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
@@ -159,12 +149,14 @@
                                         <img src="buhayanicert.png" class="d-block w-100" alt="certificates">
                                     </div>
                                 </div>
-                                
-                                <button class="carousel-control-prev" type="button" data-bs-target="#certificates" data-bs-slide="prev">
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#certificates"
+                                    data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#certificates" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#certificates"
+                                    data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
@@ -176,8 +168,8 @@
         </section>
     </main>
 
-    
-    
+
+
     <div class="row mt-5">
         <div class="col-12 mb-5">
             <h3 class="text-center">
@@ -185,21 +177,21 @@
             </h3>
         </div>
 
-        <div class="col-6 col-md-6 ps-5">   
+        <div class="col-6 col-md-6 ps-5">
             <a href="https://www.facebook.com/rhythmandstyles">
-                <div class="card rounded bg-dark">
+                <div class="card rounded bg-white ">
                     <video src="shoutboxx1.mp4" autoplay loop muted></video>
-                    <i class="fa-brands fa-facebook-f">FACEBOOK</i>
+                    <i class=" fa-brands fa-facebook-f text-dark text-decoration-none">FOLLOW US ON FACEBOOK</i>
                 </div>
-                
+
             </a>
-        </div>   
+        </div>
 
         <div class="col-6 col-md-6 pe-5">
             <a href="https://www.tiktok.com/@cccsociosrs">
-                <div class="card rounded bg-dark">
+                <div class="card rounded bg-white">
                     <video src="shoutboxx2 (2).mp4" autoplay loop muted></video>
-                    <i class="fa-brands fa-tiktok">TIKTOK</i>
+                    <i class="fa-brands fa-tiktok text-dark">FOLLOW US ON TIKTOK</i>
                 </div>
             </a>
         </div>
@@ -209,14 +201,14 @@
     <!-- Start Footer -->
     <footer class="footer bg-warning text-white p-2 mt-5">
         <div class="container">
-            <div class="row">
+            <div class="row text-dark">
                 <div class="credit ml-auto">
                     <span class="copyright">
                         ©
                         <script>
-                          document.write(new Date().getFullYear())
+                            document.write(new Date().getFullYear())
                         </script>, made by Danica Libres
-                      </span>
+                    </span>
                 </div>
             </div>
         </div>
@@ -226,6 +218,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    
+
 </body>
+
 </html>
